@@ -1,0 +1,12 @@
+Source: ros-jade-executive-smach-visualization
+Section: misc
+Priority: extra
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://ros.org/wiki/smach
+Standards-Version: 3.9.2
+
+Package: ros-jade-executive-smach-visualization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-smach-viewer
+Description: This metapackage depends on the SMACH visualization tools.
