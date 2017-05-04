@@ -1,6 +1,6 @@
 <package>
   <name>smach_viewer</name>
-  <version>2.0.0</version>
+  <version>2.1.0</version>
   <description>
     The smach viewer is a GUI that shows the state of hierarchical
     SMACH state machines. It can visualize the possible transitions
@@ -25,8 +25,10 @@
 
   <!-- Dependencies needed after this package is compiled. -->
   <run_depend>smach_ros</run_depend>
-  <run_depend>xdot</run_depend>
   <run_depend>smach_msgs</run_depend>
+  <!-- originally depends on xdot : https://github.com/jbohren/xdot/blob/2.0.1/package.xml#L25-L26 -->
+  <run_depend>wxpython</run_depend>
+  <run_depend>graphviz</run_depend>
 
   <export>
 

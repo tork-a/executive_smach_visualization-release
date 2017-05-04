@@ -2,6 +2,15 @@
 Changelog for package smach_viewer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.0 (2017-05-04)
+------------------
+* support for Qt5 (Kinetic)
+* update CMakeLists.txt, package.xml, setup.py, smach_viewer.py for new xdot structure
+* add necessary lines in xdot/__init_\_.py https://github.com/jbohren/xdot/pull/14
+* copy xdot from https://github.com/jbohren/xdot, since system xdot is released in rosdep key https://github.com/ros/rosdistro/pull/4976
+* wx viewer: checking to make sure item urls are strings to prevent crash
+* Contributors: Jonathan Bohren, Kei Okada
+
 2.0.0 (2014-04-17)
 ------------------
 * Removing rosbuild support and old useless test
