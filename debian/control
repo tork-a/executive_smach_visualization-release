@@ -1,0 +1,12 @@
+Source: ros-lunar-executive-smach-visualization
+Section: misc
+Priority: extra
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: http://ros.org/wiki/smach
+Standards-Version: 3.9.2
+
+Package: ros-lunar-executive-smach-visualization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-smach-viewer
+Description: This metapackage depends on the SMACH visualization tools.

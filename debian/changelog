@@ -1,0 +1,20 @@
+ros-lunar-executive-smach-visualization (2.1.0-0yakkety) yakkety; urgency=high
+
+
+
+ -- Jonathan Bohren <jbo@jhu.edu>  Wed, 03 May 2017 15:00:00 -0000
+
+ros-lunar-executive-smach-visualization (2.0.0-0yakkety) yakkety; urgency=high
+
+  * Adding metapackage
+  * Contributors: Jonathan Bohren
+
+ -- Jonathan Bohren <jbo@jhu.edu>  Wed, 16 Apr 2014 15:00:00 -0000
+
+ros-lunar-executive-smach-visualization (1.1.0-0yakkety) yakkety; urgency=high
+
+
+
+ -- Jonathan Bohren <jbo@jhu.edu>  Fri, 28 Jun 2013 15:00:00 -0000
+
+
