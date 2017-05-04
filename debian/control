@@ -1,0 +1,13 @@
+Source: ros-kinetic-smach-viewer
+Section: misc
+Priority: extra
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-rostest
+Homepage: http://ros.org/wiki/smach_viewer
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-smach-viewer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, graphviz, python-wxgtk3.0, ros-kinetic-smach-msgs, ros-kinetic-smach-ros
+Description: The smach viewer is a GUI that shows the state of hierarchical SMACH state machines.
+ It can visualize the possible transitions between states, as well as the currently active state and the values of user data that is passed around between states. The smach viewer uses the SMACH debugging interface based on the smach messages to gather information from running state machines.
