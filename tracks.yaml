@@ -37,5 +37,5 @@ tracks:
     release_tag: :{version}
     ros_distro: indigo
     vcs_type: git
-    vcs_uri: https://github.com/ros-visualization/executive_smach_visualization.git
+    vcs_uri: https://github.com/tork-a/executive_smach_visualization.git
     version: :{auto}
