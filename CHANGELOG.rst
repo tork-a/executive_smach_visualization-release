@@ -2,6 +2,9 @@
 Changelog for package executive_smach_visualization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.0 (2017-05-04)
+------------------
+
 2.0.0 (2014-04-17)
 ------------------
 * Adding metapackage
